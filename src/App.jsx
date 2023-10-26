@@ -12,6 +12,20 @@ function App() {
           </div>
         </div>
       </div>
+      <footer className='flex items-center justify-center text-rose-600'>
+        <p className='py-4'>
+          Created by{' '}
+          <a
+            href='https://maijsgarais.com/'
+            className='underline hover:font-bold'
+            target='_blank'
+            rel='noreferrer'
+          >
+            Maijs Garais
+          </a>
+          .
+        </p>
+      </footer>
     </div>
   )
 }
