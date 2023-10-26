@@ -7,6 +7,7 @@ function App() {
       <div className='flex grow items-center justify-center'>
         <div className='w-5/6 max-w-[48rem] overflow-hidden rounded-lg bg-white shadow-lg'>
           <div className='w-full p-8'>
+            <h1 className='pb-4 text-center text-3xl'>Pink Noise</h1>
             <Player />
           </div>
         </div>
