@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect } from 'react'
 import './playerstyles.css'
 import './noise'
+// eslint-disable-next-line import/no-extraneous-dependencies
 import 'toolcool-range-slider'
 import PauseIcon from './PauseIcon.jsx'
 import PlayIcon from './PlayIcon.jsx'
