@@ -1,8 +1,12 @@
-# React + Vite
+# Pink Noise Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app that generates pink noise right in your browser. No looping audio file or anything like that.
 
-Currently, two official plugins are available:
+## Running
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A Dockerfile is provided, so you can run it locally with:
+
+
+```bash
+docker build -t pinknoise . && docker run -p 5173:5173 -it pinknoise
+```
